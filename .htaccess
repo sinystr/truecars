@@ -1,0 +1,10 @@
+RewriteEngine On
+# Please do-not forget to change RewriteBase /YOUR-SUBFOLDER HERE
+RewriteBase /truecars
+
+RewriteRule ^$ index.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(index\.php|robots\.txt|assets|uploads|favicon\.ico)
+
+RewriteRule ^(.*)$ index.php?/$1 [L]

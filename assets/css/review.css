@@ -1,0 +1,305 @@
+/* 
+    Document   : review
+    Created on : 2013-2-17, 11:52:45
+    Author     : Sinystr
+    Description:
+        Purpose of the stylesheet follows.
+*/
+div
+{
+    display:block;
+}
+
+root { 
+    display: block;
+}
+
+
+#review-v
+{
+    width:100%;
+    height:339px;
+    background:url('../images/review-v-bg.png') repeat-x;
+}
+
+#footer
+{
+   margin-top:150px;
+}
+
+#review-v-cont
+{
+    width:1024px;
+    height: 339px;
+    margin:0 auto;
+    background:url('../images/review-v-cont-bg.png') no-repeat;
+    background-position-x:center;
+    margin-top:1px;
+}
+
+#video-revu
+{
+    width:650px;
+    margin-top:12px;
+    float:left;
+    margin-left:227px;
+}
+
+#title-part
+{
+    width:563px;
+    height:187px;
+    background:url('../images/review-titlepart.png') no-repeat;
+    margin:0 auto;
+    margin-top:-100px;
+}
+
+#title-part h2
+{
+    font-family:'Play', sans-serif;
+    color:#fff;
+    font-size:27px;
+    margin-top:140px;
+    margin-left:-40px;
+    float:left;
+    text-shadow: 1px 2px black;
+}
+
+#review-share
+{
+    width:1024px;
+    height:40px;
+    background:url('../images/review-share-bg.png') repeat-y;
+    float:left;
+    margin-top:13px;
+}
+
+.review-share
+{
+    float:right;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+    margin-top:12px;
+    margin-right:40px;
+}
+
+.review-share:hover
+{
+    color:#000;
+}
+
+#harakteristiki
+{
+    height:382px;
+    width:1024px;
+    margin:0 auto;
+    background:url('../images/harakt-bg.png') no-repeat;
+    background-position:right;
+}
+
+#harakt-title
+{
+    font-family: 'Comfortaa', cursive;
+    color:#fff;
+    font-size:18px;
+    text-shadow:2px 2px black;
+    float:left;
+    margin-top:45px;
+    clear:both;
+}
+
+#harakt-bg
+{
+    border-top:1px solid #939293;
+    background:url('../images/harakt-bg-bg.png') no-repeat;
+    background-position-x: center;
+}
+
+#harakteristiki-list
+{
+    float:left;
+    margin-top:20px;
+}
+
+#harakteristiki-list-o
+{
+    float:left;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+#harakteristiki-list 
+{
+    color:#939293;
+    font-family: 'Play', sans-serif;
+    font-size:14px;
+    margin-top:3px;
+}
+
+#harakteristiki-list-o 
+{
+    color:#fff;
+    font-family: 'Play', sans-serif;
+    font-size:14px;
+    margin-top:3px;
+}
+
+#gallery
+{
+    width:100%;
+    margin-top:220px;
+}
+
+#gallery-top
+{
+    width:100%;
+    height:7px;
+    background:url('../images/g	allery.png') repeat-x;
+}
+
+#gallery-cont
+{
+    width:100%;
+    background-color:#1b1b1b;
+    height:320px;
+}
+
+#gallery-bottom
+{
+    width:100%;
+    background:url('../images/gallery-bottom.png') repeat-x;
+    height:7px;
+}
+
+#fb-like
+{
+    float:left;
+}
+
+.gallery-image
+{
+    185px;
+}
+
+#gallery-ul
+{
+    margin-top:40px;
+    float:left;
+    margin-left:-42px
+}
+
+#gallery-ul li
+{
+    display:inline-block;
+    margin-left:46px;
+}
+
+.gallery-image
+{
+    width:293px;
+    height:185px;
+    position:relative;
+}
+
+.gallery-image img
+{
+    border:10px solid #0f0f0f;
+    z-index:49;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    float:left;
+    
+}
+
+.g-img-hover
+{
+    background:url('../images/mask.png')no-repeat;
+    position:absolute;
+    width:293px;
+    height:185px;
+    margin-top:10px;
+    margin-left:10px;
+    z-index:50;
+    display:none;
+}
+
+#gallery-cont-c
+{
+    width:1024px;
+    margin:0 auto;
+}
+
+#g-bott h2
+{
+    float:right;
+    font-family: 'Comfortaa', cursive;
+    color:#fff;
+    font-size:18px;
+    margin-right:20px;
+    margin-top:5px;
+}
+
+#g-bott{
+width:100%;
+height:30px;
+background:#0e0e0e;
+float:left;
+margin-top:46px;
+}
+
+#g-bott-c
+{
+    width:1024px;
+    margin:0 auto;
+}
+
+#rate
+{
+    width:255px;
+    height:94px;
+    background:url('../images/rate.png') no-repeat;
+    float:left;
+    margin-top:50px;
+}
+
+#rate h2
+{
+    font-family:'Play', sans-serif;
+    font-size:30px;
+    color:#fff;
+    text-shadow: 2px 2px black;
+    margin-left:120px;
+    margin-top:35px;
+}
+
+#rate-options img
+{
+    vertical-align: middle;
+    margin-left:2px;
+}
+
+#rate-options a
+{
+    text-decoration:none;
+    font-family:'Play', sans-serif;
+    color:#fff;
+    font-size:12px;
+}
+
+#facebook-comments
+{    
+    margin:0 auto;
+    width:1024px;
+    margin-top:40px;
+}
+
+#f-c-cont
+{
+    margin-left:90px;
+   
+}

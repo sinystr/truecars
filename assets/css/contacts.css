@@ -1,0 +1,122 @@
+#about
+{
+	width:1024px;
+	margin: 0 auto;
+}
+
+#footer
+{
+	float:left;
+}
+
+#c-info
+{
+	width: 592px;
+	height:133px;
+	background: url('../images/c-info.png') no-repeat;
+	float:right;
+	margin-top:20px;
+}
+
+#c-h2
+{
+	color:#fff;
+	font-family: 'Play', sans-serif;
+	font-size: 18px;
+	margin-right: 440px;
+	margin-top: 10px;
+}
+
+#c-info p 
+{
+	color:#aaa;
+	font-size: 14px;
+	font-family: 'Arial', sans-serif;
+	margin-top:20px;
+	margin-left:20px;
+	width:560px;
+}
+
+#right-side-c
+{
+	float:right;
+}
+
+#a-logo
+{
+	float:left;
+	margin-left:110px;
+}
+
+
+#c-contacts
+{
+	margin:0 auto;
+	width:1024px;
+	height: 200px;
+}
+
+#c-img
+{
+	float:left;
+	margin-top:0px;
+	margin-left:170px;
+}
+
+#a-hr
+{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+#k-h2
+{
+	float:left;
+	color:#fff;
+	font-family: 'Play', sans-serif;
+	font-size: 18px;
+}
+
+#r-c-contacts
+{
+	float:right;
+	width:590px;
+	height:200px;
+}
+
+#danni-ul1
+{
+	float:left;
+	font-size: 14px;
+	color:#aaa;
+	font-family: 'Arial', sans-serif;
+	margin-top:10px;
+}
+
+#danni-ul2
+{
+	float:left;
+	font-size: 14px;
+	margin-left: 10px;
+	color:#fff;
+	font-family: 'Arial', sans-serif;
+	margin-top:10px;
+}
+
+#danni-ul1 li
+{
+	margin-bottom: 5px;
+}
+
+#danni-ul2 li
+{
+	margin-bottom: 5px;
+}
+
+#snimka
+{
+	float:right;
+	width:145px;
+	height:152px;
+	margin-top:-20px;
+}
